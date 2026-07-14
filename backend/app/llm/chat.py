@@ -48,7 +48,6 @@ while True:
             "content":assistant_response,
         }
     )
-    if DeBUG:
     print("\nConversation History:")
     for msg in message_history:
         print(f"{msg['role']}: {msg['content']}")
